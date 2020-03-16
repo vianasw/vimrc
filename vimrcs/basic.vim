@@ -173,8 +173,8 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use spaces instead of tabs
-set expandtab
+" Use tabs
+set noexpandtab
 
 " Be smart when using tabs ;)
 set smarttab
@@ -190,7 +190,7 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
+set nu
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
